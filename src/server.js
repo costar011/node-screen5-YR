@@ -9,7 +9,7 @@ app.set("view engine", "pug");
 app.use(express.static(path.join(__dirname, "/assets")));
 
 app.get("/", (req, res) => {
-  res.render("");
+  res.render("layout");
 });
 
 app.listen(PORT, () => {
