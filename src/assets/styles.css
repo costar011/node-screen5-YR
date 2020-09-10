@@ -4,7 +4,7 @@ body {
   overflow: hidden;
 }
 
-.app {
+.app .app__lay {
   width: 100%;
   height: 100vh;
 
@@ -12,7 +12,12 @@ body {
   flex-direction: row;
 }
 
-.app .app__lay1 .app__col2 {
+.app .app__lay .app__col1 {
+  width: 100px;
+  height: 100vh;
+
   display: flex;
   flex-direction: row;
+
+  background-color: cadetblue;
 }
